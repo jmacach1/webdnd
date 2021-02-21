@@ -1,0 +1,36 @@
+.main-bio {
+  margin-top: 32px;
+  text-align: justify;
+}
+
+.header-bio {
+  padding: 24px;
+  color: rgb(128, 92, 3);
+  text-align: center;
+}
+
+.my_name {
+  font-family: "Berkshire Swash", cursive;
+  font-size: 3rem;
+}
+
+.main-bio p {
+  margin: 0 1rem;
+  padding: 16px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.bio-profile-img {
+  margin-right: 16px;
+  margin-bottom: 16px;
+  float: left;
+  border-radius: 5%;
+
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+
+  object-fit: cover;
+  object-position: center top;
+}

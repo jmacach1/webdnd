@@ -1,0 +1,32 @@
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 32px;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacts figure {
+  width: 400px;
+}
+
+.contacts figure img {
+  width: 100%;
+}
+
+.contacts > div {
+  box-shadow: 5px 5px 15px 5px gainsboro;
+  text-align: center;
+  height: 280px;
+  width: 432px;
+  padding: 16px;
+  margin: 16px;
+}
+
+.social-media {
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 3rem;
+  color: darkblue;
+}
